@@ -150,7 +150,7 @@ Form 3
 import React, { useState } from 'react';
 import 'bulma/css/bulma.css';
 
-const SimpleForm = () => {
+const SuperForm = () => {
   const [inputValue, setInputValue] = useState('');
   const [radioValue, setRadioValue] = useState('');
   const [check1, setCheck1] = useState(false);
@@ -255,7 +255,7 @@ const SimpleForm = () => {
   );
 };
 
-export default SimpleForm;
+export default SuperForm;
 
 ```
 
